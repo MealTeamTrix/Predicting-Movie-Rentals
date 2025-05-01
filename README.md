@@ -1,9 +1,19 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# Rental Duration Prediction
 
-## Description
-Optional section to provide a more detailed overview of the project.
+This project builds and compares machine learning models to predict movie rental durations using Lasso feature selection, Linear Regression, and Random Forest Regressors.
 
-## Getting Started
-Optional section to summarize important steps and how to use the project & apps in the project
+## Features
+
+- Preprocesses rental data and creates dummy variables from categorical columns.
+- Performs feature selection using Lasso regression.
+- Trains and evaluates Linear Regression and Random Forest models.
+- Selects the best model based on Mean Squared Error (MSE).
+
+## Requirements
+
+Install the required Python packages using:
+
+```bash
+pip install -r requirements.txt
+
 
